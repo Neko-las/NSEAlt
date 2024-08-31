@@ -37,8 +37,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable colored diagnostics throughout.
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:UNINITIALIZED=/usr/bin/g++
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=/usr/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -236,15 +236,6 @@ NSEProject_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 NSEProject_SOURCE_DIR:STATIC=/home/nicolas/Projects/NSEAlt
-
-//Value Computed by CMake
-P2PProject_BINARY_DIR:STATIC=/home/nicolas/Projects/NSEAlt/cmake-build-debug
-
-//Value Computed by CMake
-P2PProject_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-P2PProject_SOURCE_DIR:STATIC=/home/nicolas/Projects/NSEAlt
 
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/cmake/boost_headers-1.86.0
