@@ -17,7 +17,6 @@ void handleProtocoll() {
     int freq = 3600;
     const std::string& gossip_api_address = "127.0.0.1";
     int gossip_api_port = 6001;
-
     GossipClient gossip_client(gossip_api_address,gossip_api_port);
 
 }

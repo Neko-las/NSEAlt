@@ -4,7 +4,7 @@ project(NSEProject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-option(FORCE_STATIC_LINK "FORCE static linking with Boost" OFF)
+#option(FORCE_STATIC_LINK "FORCE static linking with Boost" OFF)
 
 find_package(Boost QUIET COMPONENTS system thread)
 
@@ -29,7 +29,7 @@ endif()
 
 include_directories(include)
 
-add_executable(NSEProject main.cpp
+add_executable(NSEProject src/main.cpp
         include/nse/NSEMessageType.h
         src/util/CommandLineParser.cpp
         include/util/CommandLineParser.h
