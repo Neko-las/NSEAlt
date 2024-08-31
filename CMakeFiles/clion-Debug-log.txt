@@ -1,0 +1,5 @@
+/home/nicolas/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/nicolas/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S /home/nicolas/P2PProject -B /home/nicolas/P2PProject/cmake-build-debug
+-- Using system-installed Boost.
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nicolas/P2PProject/cmake-build-debug
