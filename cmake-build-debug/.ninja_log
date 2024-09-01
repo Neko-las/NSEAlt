@@ -1,14 +1,15 @@
 # ninja log v6
-1	13	1725117416749375463	CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o	1df7fb909c9c373a
-2	13	1725117416749375463	CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o	28bd3a409359388
-2	13	1725117416749375463	CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o	d4f9c97b62d333c5
-2087	2145	1725117418833418108	NSEProject	95c7b8d85fe96583
-1	13	1725117416749375463	CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o	5695acfc8435ffd5
-2	1558	1725117416749375463	CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o	f36ba21347ff4ab7
-1	13	1725117416749375463	CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o	b1527a9605bada64
-2	130	1725117416749375463	CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o	7d441fa1fd360b8
-1	338	1725117416749375463	CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o	6a6e9d6808faf106
-2	1657	1725117416749375463	CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o	54bbb888ec666894
+309	368	1725148706428323512	NSEProject	40557daff1d162b3
+4	16	1725152133460326832	CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o	9d1bc94918f8203
+3	9	1725152133460326832	CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o	54bf458dbf8c7089
+0	31	1725154915283961122	build.ninja	bdbac70c7decf5cf
+3	155	1725151572004527038	CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o	7a9173ce554d8ac3
 0	2086	1725117416749375463	CMakeFiles/NSEProject.dir/main.cpp.o	76571c71e8cb987d
-1	1948	1725118140800838707	CMakeFiles/NSEProject.dir/src/main.cpp.o	4aa973f0a7eb5405
-1948	2008	1725118142748848017	NSEProject	40557daff1d162b3
+2	9	1725152133456326777	CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o	2db9df71b7818fa7
+3	1657	1725152133460326832	CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o	8054c372121fe58d
+2	352	1725152133456326777	CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o	702d2c807294a24e
+3	130	1725152133460326832	CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o	72b899c581e00bb2
+2	2078	1725152133456326777	CMakeFiles/NSEProject.dir/src/main.cpp.o	8f6872e85c3a8bf5
+2	1538	1725123938505967877	CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o	f36ba21347ff4ab7
+3	9	1725152133460326832	CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o	cd8b99f660429cc9
+2	9	1725152133456326777	CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o	2980cf8c6545906f

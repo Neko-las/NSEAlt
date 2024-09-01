@@ -12,6 +12,8 @@ class NSEHandler {
 public:
     bool validate_query(const std::vector<char>& query_data);
     std::string nse_estimate();
+    void append_msg_to_history();
+    void create_round_msg();
 
 private:
     int m_est_peer_count;

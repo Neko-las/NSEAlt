@@ -4,7 +4,9 @@ project(NSEProject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-#option(FORCE_STATIC_LINK "FORCE static linking with Boost" OFF)
+option(FORCE_STATIC_LINK "FORCE static linking with Boost" OFF)
+
+
 
 find_package(Boost QUIET COMPONENTS system thread)
 
@@ -22,6 +24,27 @@ else()
     include_directories(${BOOST_INCLUDEDIR})
 
     file(GLOB BOOST_LIBRARIES "${BOOST_LIBRARYDIR}/*.a")
+
+    link_directories(${BOOST_LIBRARYDIR})
+
+endif()
+
+# --- OpenSSL Setup ---
+find_package(OpenSSL)
+
+if(OpenSSL_FOUND)
+    message(STATUS "Using system-installed OpenSSL.")
+    include_directories(${OPENSSL_INCLUDE_DIR})
+    set(SSL_LIBRARIES OpenSSL::SSL OpenSSL::Crypto)
+else()
+    message(WARNING "System OpenSSL not found. Trying to link to static libraries")
+
+    set(SSL_INCLUDEDIR "${CMAKE_SOURCE_DIR}/libs/openssl")
+    set(SLL_LIBRARYDIR "${CMAKE_SOURCE_DIR}/libs/lib")
+
+    include_directories(${SSL_INCLUDEDIR})
+
+    file(GLOB SSL_LIBRARIES "${SSL_LIBRARYDIR}/*.a")
 
     link_directories(${BOOST_LIBRARYDIR})
 
@@ -50,6 +73,9 @@ add_executable(NSEProject src/main.cpp
         include/nse/NSEProtocoll.h
         src/MainProtocol.cpp
         include/MainProtocol.h
+        src/security/CryptoUtils.cpp
+        include/security/CryptoUtils.h
 )
 
-target_link_libraries(NSEProject ${BOOST_LIBRARIES})
+target_link_libraries(NSEProject ${BOOST_LIBRARIES} ${SSL_LIBRARIES})
+#target_link_libraries(NSEProject OpenSSL::SSL OpenSSL::Crypto)

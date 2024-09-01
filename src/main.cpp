@@ -7,7 +7,7 @@
 #include "nse/NSEServer.h"
 #include "util/ConfigParser.h"
 
-void handleProtocoll() {
+void handleProtocoll(NSEHandler& handler) {
     //Message Types
     int gossip_notification = 502;
     int nse_query_dtype = 520;
@@ -17,7 +17,7 @@ void handleProtocoll() {
     int freq = 3600;
     const std::string& gossip_api_address = "127.0.0.1";
     int gossip_api_port = 6001;
-    GossipClient gossip_client(gossip_api_address,gossip_api_port);
+    GossipClient gossip_client(gossip_api_address,gossip_api_port,handler);
 
 }
 
@@ -25,9 +25,12 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     ConfigParser parser;
+    ConfigData configData;
 
     if(parser.parse("config.ini")) {
         std::cout << "Gossip cache_size: " << parser.getInt("gossip","cache_size") << std::endl;
+        configData = parser.get();
+        std::cout << configData.gossip_bootstrapper_adress << std::endl;
     }
 
     try {
@@ -47,7 +50,11 @@ int main() {
             io_context.run();
         });
 
-        handleProtocoll();
+        MainProtocol protocol{};
+        protocol.handleProtocol();
+
+
+        handleProtocoll(handler);
 
         io_thread.join();
 

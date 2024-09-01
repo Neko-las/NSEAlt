@@ -6,12 +6,13 @@
 #define GOSSIPCLIENT_H
 
 #include <boost/asio.hpp>
+#include <nse/NSEAlgorithm.h>
 
 using boost::asio::ip::tcp;
 
 class GossipClient {
 public:
-    GossipClient(const std::string& address, int port);
+    GossipClient(const std::string& address, int port, NSEHandler& handler);
 
     void startBroadcastLoop();
 
@@ -26,6 +27,7 @@ private:
     std::thread m_notification_thread;
     const std::string& m_address;
     int m_port;
+    NSEHandler& m_handler;
 
     void connectToGossipModule(const std::string& address, int port);
 

@@ -7,7 +7,7 @@
 #include <iostream>
 #include <thread>
 
-GossipClient::GossipClient(const std::string &address, int port) : m_address(address), m_port(port), m_io_context(),m_socket(m_io_context) {
+GossipClient::GossipClient(const std::string &address, int port, NSEHandler& handler) : m_address(address), m_port(port), m_io_context(),m_socket(m_io_context), m_handler(handler){
     connectToGossipModule(address, port);
 }
 
@@ -15,7 +15,23 @@ void GossipClient::broadcastLoop() {
     while(true) {
         std::this_thread::sleep_for(std::chrono::seconds(1));
         std::cout << "Broadcast loop running..." << std::endl;
+
+        //Calulate time to next round and wait
+        auto now = std::chrono::system_clock::now();
+        auto next_hour = std::chrono::time_point_cast<std::chrono::hours>(now) + std::chrono::hours(1);
+        auto duration_until_next_hour = std::chrono::duration_cast<std::chrono::seconds>(next_hour -now);
+        auto deltaseconds = duration_until_next_hour.count();
+        std::this_thread::sleep_for(std::chrono::seconds(deltaseconds));
+
+
+        //New round started, append old best round message to history and create new round message
+        std::string current_msg_hash =
+
     }
+}
+
+void waitUntilNextRound() {
+
 }
 
 void GossipClient::notificationLoop() {
