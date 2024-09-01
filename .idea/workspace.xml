@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="NSEProject" targetName="NSEProject" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d277cdbd-17bf-4677-9ca6-711539c90e35" name="Changes" comment="fixed setup">
+      <change afterPath="$PROJECT_DIR$/include/security/CryptoUtils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/lib/libcrypto.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/lib/libssl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/__DECC_INCLUDE_EPILOGUE.H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/__DECC_INCLUDE_PROLOGUE.H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/asn1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/asn1_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/asn1err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/asn1t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/async.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/asyncerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/bio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/bioerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/blowfish.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/bn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/bnerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/buffererr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/camellia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cms.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cmserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/comp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/comperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/conf_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/conferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/crypto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cryptoerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ct.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/cterr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/des.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/dh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/dherr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/dsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/dsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/dtls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/e_os2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ebcdic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ecdh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ecdsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ecerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/engineerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/evp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/evperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/hmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/idea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/kdf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/kdferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/lhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/md2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/md4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/mdc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/modes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/obj_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/objects.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/objectserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ocsp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ocsperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/opensslconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/opensslconf.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/opensslv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ossl_typ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pem2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pemerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pkcs12.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pkcs12err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pkcs7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/pkcs7err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rand_drbg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/randerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rc4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rc5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ripemd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/rsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/safestack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/seed.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/sha.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/srp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/srtp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ssl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ssl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ssl3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/sslerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/store.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/storeerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/symhacks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/tls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/tserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/txt_db.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/ui.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/uierr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/whrlpool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/x509.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/x509_vfy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/x509err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/x509v3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/openssl/openssl/x509v3err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/CryptoUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NSEProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NSEProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/gossip/GossipClient.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/gossip/GossipClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/nse/NSEAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/nse/NSEAlgorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/util/ConfigParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/util/ConfigParser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gossip/GossipClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gossip/GossipClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ConfigParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ConfigParser.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Neko-las&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Neko-las/NSEAlt.git&quot;,
+    &quot;accountId&quot;: &quot;119cf5cf-7256-4211-8e8e-c9791f5a9a58&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lQdCujIafxXXZL9O5cYNOiQs8i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.NSEProject.executor": "Run",
+    "CMake Debug.NSEProject.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nicolas/Projects/NSEAlt/libs/openssl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/openssl" />
+      <recent name="$PROJECT_DIR$/libs/openssl/include" />
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/libs/lib" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/security" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.NSEProject">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NSEProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NSEProject" TARGET_NAME="NSEProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NSEProject" RUN_TARGET_NAME="NSEProject">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Unnamed" />
+      <item itemvalue="CMake Application.NSEProject" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d277cdbd-17bf-4677-9ca6-711539c90e35" name="Changes" comment="" />
+      <created>1725116110026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725116110026</updated>
+      <workItem from="1725116111057" duration="348000" />
+      <workItem from="1725116617545" duration="12421000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1725116898591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725116898591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix sOME STUFF">
+      <option name="closed" value="true" />
+      <created>1725117648868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725117648868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="REMOVE testing">
+      <option name="closed" value="true" />
+      <created>1725117709319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725117709319</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed setup">
+      <option name="closed" value="true" />
+      <created>1725118233846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725118233846</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="fix sOME STUFF" />
+    <MESSAGE value="REMOVE testing" />
+    <MESSAGE value="fixed setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed setup" />
+  </component>
+</project>
