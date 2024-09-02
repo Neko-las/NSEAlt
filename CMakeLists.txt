@@ -29,6 +29,8 @@ else()
 
 endif()
 
+set(STATIC_OPENSSL_DIR "${CMAKE_SOURCE_DIR}/libs/openssl")
+
 # --- OpenSSL Setup ---
 find_package(OpenSSL)
 
@@ -37,16 +39,16 @@ if(OpenSSL_FOUND)
     include_directories(${OPENSSL_INCLUDE_DIR})
     set(SSL_LIBRARIES OpenSSL::SSL OpenSSL::Crypto)
 else()
-    message(WARNING "System OpenSSL not found. Trying to link to static libraries")
+    message(WARNING "System OpenSSL not found.")
 
-    set(SSL_INCLUDEDIR "${CMAKE_SOURCE_DIR}/libs/openssl")
-    set(SLL_LIBRARYDIR "${CMAKE_SOURCE_DIR}/libs/lib")
+    set(SSL_INCLUDEDIR "${CMAKE_SOURCE_DIR}/libs/openssl/include")
+    set(SSL_LIBRARYDIR "${CMAKE_SOURCE_DIR}/libs/openssl/lib")
 
     include_directories(${SSL_INCLUDEDIR})
 
     file(GLOB SSL_LIBRARIES "${SSL_LIBRARYDIR}/*.a")
 
-    link_directories(${BOOST_LIBRARYDIR})
+    link_directories(${SSL_LIBRARYDIR})
 
 endif()
 
@@ -75,6 +77,8 @@ add_executable(NSEProject src/main.cpp
         include/MainProtocol.h
         src/security/CryptoUtils.cpp
         include/security/CryptoUtils.h
+        src/util/utils.cpp
+        include/util/utils.h
 )
 
 target_link_libraries(NSEProject ${BOOST_LIBRARIES} ${SSL_LIBRARIES})

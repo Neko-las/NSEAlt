@@ -33,6 +33,7 @@ private:
 
     void broadcastLoop();
     void notificationLoop();
+
 };
 
 #endif //GOSSIPCLIENT_H

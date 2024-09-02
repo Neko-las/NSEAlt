@@ -11,4 +11,9 @@ std::string NSEHandler::nse_estimate() {
     return "NSE Estimate: " + std::to_string(m_est_peer_count) + " peers, std Deviation: " + std::to_string(m_est_std_deviation);
 }
 
+std::string NSEHandler::getMsg() {
+    return m_msg;
+}
+
+
 

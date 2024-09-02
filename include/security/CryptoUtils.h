@@ -8,6 +8,7 @@
 #include <sstream>
 #include <openssl/sha.h>
 
+std::string sha256(const std::string &str);
 std::string sha256_hex_digest(const std::string& input);
 
 #endif //CRYPTOUTILS_H

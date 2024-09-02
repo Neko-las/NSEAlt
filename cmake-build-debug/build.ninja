@@ -53,7 +53,7 @@ build CMakeFiles/NSEProject.dir/src/main.cpp.o: CXX_COMPILER__NSEProject_unscann
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src
 
@@ -61,7 +61,7 @@ build CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o: CXX_COMPILER__
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/util
 
@@ -69,7 +69,7 @@ build CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o: CXX_COMPILER__NSEPr
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/util
 
@@ -77,7 +77,7 @@ build CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o: CXX_COMPILER__NS
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/security
 
@@ -85,7 +85,7 @@ build CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o: CXX_COMPILER__NSEProject
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/security
 
@@ -93,7 +93,7 @@ build CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o: CXX_COMPILER__NSEPro
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/nse
 
@@ -101,7 +101,7 @@ build CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o: CXX_COMPILER__NSEProjec
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/nse
 
@@ -109,7 +109,7 @@ build CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o: CXX_COMPILER__NSE
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/gossip
 
@@ -117,7 +117,7 @@ build CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o: CXX_COMPILER__NSEPro
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/nse
 
@@ -125,7 +125,7 @@ build CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o: CXX_COMPILER__NSEProject
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src
 
@@ -133,9 +133,17 @@ build CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o: CXX_COMPILER__NS
   DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
   DEP_FILE = CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl -I/home/nicolas/Projects/NSEAlt/include
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/security
+
+build CMakeFiles/NSEProject.dir/src/util/utils.cpp.o: CXX_COMPILER__NSEProject_unscanned_Debug /home/nicolas/Projects/NSEAlt/src/util/utils.cpp || cmake_object_order_depends_target_NSEProject
+  DEFINES = -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
+  DEP_FILE = CMakeFiles/NSEProject.dir/src/util/utils.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/nicolas/Projects/NSEAlt/libs/openssl/include -I/home/nicolas/Projects/NSEAlt/include
+  OBJECT_DIR = CMakeFiles/NSEProject.dir
+  OBJECT_FILE_DIR = CMakeFiles/NSEProject.dir/src/util
 
 
 # =============================================================================
@@ -145,9 +153,10 @@ build CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o: CXX_COMPILER__NS
 #############################################
 # Link the executable NSEProject
 
-build NSEProject: CXX_EXECUTABLE_LINKER__NSEProject_Debug CMakeFiles/NSEProject.dir/src/main.cpp.o CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o | /usr/lib/libboost_system.so.1.86.0 /usr/lib/libboost_thread.so.1.86.0
+build NSEProject: CXX_EXECUTABLE_LINKER__NSEProject_Debug CMakeFiles/NSEProject.dir/src/main.cpp.o CMakeFiles/NSEProject.dir/src/util/CommandLineParser.cpp.o CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o CMakeFiles/NSEProject.dir/src/gossip/GossipClient.cpp.o CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o CMakeFiles/NSEProject.dir/src/util/utils.cpp.o | /usr/lib/libboost_system.so.1.86.0 /usr/lib/libboost_thread.so.1.86.0 /home/nicolas/Projects/NSEAlt/libs/openssl/lib/libcrypto.a /home/nicolas/Projects/NSEAlt/libs/openssl/lib/libssl.a
   FLAGS = -g
-  LINK_LIBRARIES = /usr/lib/libboost_system.so.1.86.0  /usr/lib/libboost_thread.so.1.86.0
+  LINK_LIBRARIES = -Wl,-rpath,/home/nicolas/Projects/NSEAlt/libs/openssl/lib  /usr/lib/libboost_system.so.1.86.0  /usr/lib/libboost_thread.so.1.86.0  /home/nicolas/Projects/NSEAlt/libs/openssl/lib/libcrypto.a  /home/nicolas/Projects/NSEAlt/libs/openssl/lib/libssl.a
+  LINK_PATH = -L/home/nicolas/Projects/NSEAlt/libs/openssl/lib
   OBJECT_DIR = CMakeFiles/NSEProject.dir
   POST_BUILD = :
   PRE_LINK = :

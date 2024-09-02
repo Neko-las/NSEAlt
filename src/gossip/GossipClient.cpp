@@ -7,6 +7,9 @@
 #include <iostream>
 #include <thread>
 
+#include "security/CryptoUtils.h"
+#include "util/utils.h"
+
 GossipClient::GossipClient(const std::string &address, int port, NSEHandler& handler) : m_address(address), m_port(port), m_io_context(),m_socket(m_io_context), m_handler(handler){
     connectToGossipModule(address, port);
 }
@@ -23,9 +26,17 @@ void GossipClient::broadcastLoop() {
         auto deltaseconds = duration_until_next_hour.count();
         std::this_thread::sleep_for(std::chrono::seconds(deltaseconds));
 
+        //New round -> so append old round message to history + create a new message
+        m_handler.append_msg_to_history();
+        m_handler.create_round_msg();
 
         //New round started, append old best round message to history and create new round message
-        std::string current_msg_hash =
+        Message current_msg_hash = m_handler.getMsg();
+        current_msg_hash = sha256(current_msg_hash);
+
+        // Calculate flood delay and wait until reached
+        int startingdelay = create_flood_delay();  // Replace with actual logic
+        //std::this_thread::sleep_for(std::chrono::seconds(startingdelay));
 
     }
 }
