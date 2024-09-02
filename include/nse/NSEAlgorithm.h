@@ -9,6 +9,8 @@
 #include <vector>
 #include <sstream>
 
+#include "security/PoW.h"
+
 struct Message {
     int32_t hop_count;
     uint64_t magic_code;
@@ -47,12 +49,14 @@ public:
     void append_msg_to_history();
     void create_round_msg();
 
-    std::string getMsg();
+    Message getMsg();
 
 private:
     int m_est_peer_count;
     double m_est_std_deviation;
     Message m_msg;
+    std::vector<Message> message_history;
+    int m_proximity;
 
 };
 

@@ -35,7 +35,7 @@ void GossipClient::broadcastLoop() {
         current_msg_hash = sha256(current_msg_hash);
 
         // Calculate flood delay and wait until reached
-        int startingdelay = create_flood_delay();  // Replace with actual logic
+        int startingdelay = create_flood_delay(create_flood_delay(m_handler.getMsgHistory(),m_handler.getMsg()));  // Replace with actual logic
         //std::this_thread::sleep_for(std::chrono::seconds(startingdelay));
 
     }

@@ -1,4 +1,11 @@
 # ninja log v6
+0	2086	1725117416749375463	CMakeFiles/NSEProject.dir/main.cpp.o	76571c71e8cb987d
+3	168	1725232939443671979	CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o	db7afa2099abcbe7
+0	28	1725261866676430633	build.ninja	bdbac70c7decf5cf
+2	77	1725233128514385504	NSEProject	7d0e9c1f9558da57
+3	2430	1725232901071121274	CMakeFiles/NSEProject.dir/src/main.cpp.o	1d052338bfb645af
+5	1239	1725232901071121274	CMakeFiles/NSEProject.dir/src/util/utils.cpp.o	5932df37038b1bab
+3	424	1725232901071121274	CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o	a03c95d6b3ec6194
 4	143	1725232901071121274	CMakeFiles/NSEProject.dir/src/nse/NSEAlgorithm.cpp.o	324d1af62e76aa6a
 3	20	1725232901071121274	CMakeFiles/NSEProject.dir/src/security/ProofofWork.cpp.o	2ff6e3dab307be32
 4	1944	1725232901071121274	CMakeFiles/NSEProject.dir/src/nse/NSEServer.cpp.o	1897f39950073f0f
@@ -7,11 +14,3 @@
 4	14	1725232901071121274	CMakeFiles/NSEProject.dir/src/nse/NSEProtocoll.cpp.o	e21a0e5d26d09ccf
 4	19	1725232901071121274	CMakeFiles/NSEProject.dir/src/security/RSI.cpp.o	daf5e8bb4b46a575
 5	17	1725232901071121274	CMakeFiles/NSEProject.dir/src/MainProtocol.cpp.o	51d5892c5257cc4c
-309	368	1725148706428323512	NSEProject	40557daff1d162b3
-0	2086	1725117416749375463	CMakeFiles/NSEProject.dir/main.cpp.o	76571c71e8cb987d
-3	168	1725232939443671979	CMakeFiles/NSEProject.dir/src/security/CryptoUtils.cpp.o	db7afa2099abcbe7
-0	28	1725233125122336822	build.ninja	bdbac70c7decf5cf
-3	424	1725232901071121274	CMakeFiles/NSEProject.dir/src/util/ConfigParser.cpp.o	a03c95d6b3ec6194
-5	1239	1725232901071121274	CMakeFiles/NSEProject.dir/src/util/utils.cpp.o	5932df37038b1bab
-3	2430	1725232901071121274	CMakeFiles/NSEProject.dir/src/main.cpp.o	1d052338bfb645af
-2	77	1725233128514385504	NSEProject	7d0e9c1f9558da57

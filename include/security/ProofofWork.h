@@ -5,4 +5,6 @@
 #ifndef PROOFOFWORK_H
 #define PROOFOFWORK_H
 
+
+
 #endif //PROOFOFWORK_H

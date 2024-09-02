@@ -79,6 +79,7 @@ add_executable(NSEProject src/main.cpp
         include/security/CryptoUtils.h
         src/util/utils.cpp
         include/util/utils.h
+        include/security/PoW.h
 )
 
 target_link_libraries(NSEProject ${BOOST_LIBRARIES} ${SSL_LIBRARIES})
